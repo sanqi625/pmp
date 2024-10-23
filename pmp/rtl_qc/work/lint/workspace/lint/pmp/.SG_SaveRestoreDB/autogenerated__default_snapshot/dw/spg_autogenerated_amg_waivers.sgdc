@@ -1,0 +1,4 @@
+#file_type internal
+waive -file "*/auxi/gates/dw_interface_library.v" --delete_internal_use_only
+waive -file "*/wrappers/dw_interface_library_NONAMG.v" --delete_internal_use_only
+waive -file "/data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/SPY_DW_WORK/.cache_dir_amg/*.v" --delete_internal_use_only

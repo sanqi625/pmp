@@ -1,0 +1,2 @@
+#!/bin/csh -f
+spyglass -project /data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint.prj &

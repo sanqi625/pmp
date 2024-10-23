@@ -1,0 +1,17 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@clk@@INPUT@@0@@0@@the num of pmp addr and cfg@@pmp@@No
+VALUE@@rst_n@@INPUT@@0@@0@@-@@pmp@@No
+VALUE@@csr_req_en@@INPUT@@0@@0@@-@@pmp@@No
+VALUE@@csr_req_op@@INPUT@@1@@0@@csr_op[1]---R, csr_op[0]---W@@pmp@@No
+VALUE@@csr_funct3@@INPUT@@2@@0@@-@@pmp@@No
+VALUE@@csr_imm@@INPUT@@4@@0@@-@@pmp@@No
+VALUE@@rs1_val@@INPUT@@31@@0@@-@@pmp@@No
+VALUE@@csr_rrsp@@INPUT@@0@@0@@input   logic [31:0]            ...@@pmp@@No
+VALUE@@csr_req_addr@@INPUT@@11@@0@@-@@pmp@@No
+VALUE@@csr_req_rdata@@OUTPUT@@31@@0@@-@@pmp@@No
+VALUE@@csr_req_rvalid@@OUTPUT@@0@@0@@-@@pmp@@No
+VALUE@@csr_act_rsp@@OUTPUT@@0@@0@@-@@pmp@@No
+VALUE@@mode_state@@INPUT@@1@@0@@-@@pmp@@No
+VALUE@@v_req_addr@@INPUT@@95@@0@@-@@pmp@@No
+VALUE@@v_req_mode@@INPUT@@5@@0@@instruction mode：01--load; 10-...@@pmp@@No
+VALUE@@v_pass@@OUTPUT@@2@@0@@-@@pmp@@No

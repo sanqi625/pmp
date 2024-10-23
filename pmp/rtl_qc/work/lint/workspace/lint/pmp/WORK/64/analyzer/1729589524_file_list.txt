@@ -1,0 +1,5 @@
+0 /data/usr/qijiahuan/pmp/rtl/pmp_pkg.sv
+1 /data/usr/qijiahuan/pmp/rtl/pmp.sv
+2 /data/usr/qijiahuan/pmp/rtl/pmp_compare.sv
+3 /data/usr/qijiahuan/pmp/rtl/pmp_addr_check.sv
+4 /data/usr/qijiahuan/pmp/rtl/csr_bus.sv

@@ -1,0 +1,6 @@
+gui_select_message -rule AsyncName -msg {Asynchronous Reset signal name 'rst_n' should end with _a}
+# Started at 16:19:19, Completed at 16:19:19 (Elapsed time = 00:00:00.000)
+
+gui_select_message -rule CombLoop -msg {Combinational loop exists at 'pmp.\pmp_compare_array[2].u_pmp_checker .v_hit_index[0]-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>-pmp.\pmp_compare_array[2].u_pmp_checker .<synth_gen_net>'}
+# Started at 16:19:41, Completed at 16:19:41 (Elapsed time = 00:00:00.000)
+

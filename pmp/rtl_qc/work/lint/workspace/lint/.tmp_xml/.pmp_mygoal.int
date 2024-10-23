@@ -1,0 +1,5 @@
+INPUT@@/data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/mygoal/spyglass_reports@@/data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/html_reports/data_files/@@pmp@@mygoal@@
+COPY@@/data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/mygoal/spyglass_reports/moresimple.rpt@@data_files/pmp_mygoal_moresimple.rpt@@
+COPY@@/data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/mygoal/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/pmp_mygoal_no_msg_reporting_rules.rpt@@
+PROCESS@@dft_dsm@@clock-reset@@latch@@power_est@@SpyGlass@@erc@@openmore@@lint@@starc@@sdc2sgdc@@const_intern1@@timing@@morelint@@miscellaneous@@starc2002@@area@@simulation@@dft@@lowpower@@starc2005@@constraints@@Audits@@txv
+COPY@@/data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/mygoal/spyglass.log@@data_files/pmp_mygoal_spyglass.log@@

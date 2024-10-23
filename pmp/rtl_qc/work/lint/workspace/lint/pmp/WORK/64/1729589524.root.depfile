@@ -1,0 +1,15 @@
+OPTIONS COUNT 
+25 
+START OPTIONS 
+$S $s +define+SYNTHESIS=1 -allow_non_lrm -enableSV09 -enableSVA -enable_precompile_vlog -synth_prefix -synth_prefix -synth_prefix -synth_prefix -vlp -vlp -vlp -vlp -vlp -vlp -vlp /data/usr/qijiahuan/pmp/rtl/csr_bus.sv /data/usr/qijiahuan/pmp/rtl/pmp.sv /data/usr/qijiahuan/pmp/rtl/pmp_addr_check.sv /data/usr/qijiahuan/pmp/rtl/pmp_compare.sv /data/usr/qijiahuan/pmp/rtl/pmp_pkg.sv pragma synopsys
+ END OPTIONS 
+WORKDIR 
+WORK 
+LIBMAP COUNT
+2 
+START LIBMAP 
+WORK /data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/WORK/64 /data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/WORK/64
+SPY_DW_WORK /data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/SPY_DW_WORK/64 /data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/SPY_DW_WORK/64
+END LIBMAP 
+language_mode
+SVERILOG_2009

@@ -1,0 +1,13 @@
+####################################################################################################
+# ================================= CLOCK GATING CANDIDATES REPORT ================================#
+#                                                                                                  #
+# This report contains details of flip-flops where, due to complex enable logic, common weaker     #
+# enable could not be found. Therefore, these flip-flops, which could theoretically be gated,      #
+# were not gated.                                                                                  #
+####################################################################################################
+                                                                                                    
+----------------------------------------------------------------------------------------------------
+ ID        Module                       CG Candidate Flop Name               File(Line)             
+----------------------------------------------------------------------------------------------------
+
+ 1         pmp                          read_valid_reg                       /data/usr/qijiahuan/pmp/rtl/pmp.sv(165)

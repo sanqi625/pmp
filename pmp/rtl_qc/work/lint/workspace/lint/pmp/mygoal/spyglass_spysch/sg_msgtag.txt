@@ -1,0 +1,479 @@
+52 "STARC02-1.1.4.3" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@4","3@@3"]
+53 "STARC02-1.1.4.3" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@7","3@@4"]
+54 "STARC02-1.1.4.3" 2
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@7","4@@3"]
+75 "W328" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+76 "W328" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+77 "W328" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+78 "W328" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+79 "W116" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:csr_wdata_module"
+80 "W116" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:csr_wdata_module"
+82 "W498" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+83 "W164c" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+118 "W164a" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+119 "W164b" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+157 "STARC02-2.10.3.2b" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+158 "STARC02-2.10.3.2c" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:csr_wdata_module"
+159 "STARC02-2.10.3.2c" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:csr_wdata_module"
+173 "SameAssignment-ML" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["2@@159","2@@162"]
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+174 "GenvarDeclaration-ML" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+175 "GenvarDeclaration-ML" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+176 "GenvarDeclaration-ML" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp"
+177 "LINT_IMPROPER_RANGE_INDEX" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:pmp_reg_read"
+178 "LINT_IMPROPER_RANGE_INDEX" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:pmp_reg_read"
+179 "LINT_IMPROPER_RANGE_INDEX" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:pmp_reg_read"
+180 "LINT_IMPROPER_RANGE_INDEX" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:pmp_reg_read"
+181 "W328" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:\pmp_compare_array[0].u_pmp_checker @pmp_compare"
+192 "LoopVarInAlways-ML" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:\pmp_compare_array[0].u_pmp_checker @pmp_compare:hit_find_unit"
+193 "GenvarDeclaration-ML" 1
+"SPG_MSGTAG_HIERARCHY"
+":pmp:\pmp_compare_array[0].u_pmp_checker @pmp_compare"
+195 "SameAssignment-ML" 3
+"SG_MULTILINE_PROPERTY"
+1
+"SG_MULTILINE_MSGTAG"
+["4@@26","4@@30"]
+"SPG_MSGTAG_HIERARCHY"
+":pmp:\pmp_compare_array[0].u_pmp_checker @pmp_compare:\addr_check_unit[0].u_check_unit @pmp_addr_check"
+431 "Domain_Matrix01" 1
+"Open_Sp_Sheet"
+["/data/usr/qijiahuan/pmp/rtl_qc/work/lint/workspace/lint/pmp/mygoal/spyglass_reports/sdc2sgdc/Domain/clock_pmp_domain_matrix_0.csv@@noofheadercol:3"]
+444 "ErrorAnalyzeBBox" 2
+"BBoxEng"
+["pmp_compare","BB_SYNTH_ERR"]
+"BBoxEngAuxiInfo"
+["(null)","(null)","(null)"]
+-1 "AsyncName" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["openmore/General_Naming_Conventions"]
+-1 "AutoGenerateSglib" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "CMD_define_severity02" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "CMD_sglib03" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"
+-1 "ComplexExpr-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "DetectBlackBoxes-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "Domain_Matrix01" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "EnableXPropagation-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "ErrorAnalyzeBBox" 2
+"RULEGROUP"
+["Blackbox Resolution"]
+"BUILTIN"
+"1"
+-1 "ExprParen" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["openmore/Partitioning_for_Synthesis"]
+-1 "GenvarDeclaration-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "HardConst" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["openmore/Coding_for_Portability"]
+-1 "INFO_1487" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "InfoSglibVersionSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "InstName" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["openmore/Basic_Coding_Practices"]
+-1 "InstNameLength" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["openmore/Basic_Coding_Practices"]
+-1 "InstNameStyle-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "InvalidVariedTypedefNameStyle-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "LINT_IMPROPER_RANGE_INDEX" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "LINT_MULTIASSIGN_BLOCKING_SIG" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Miscellaneous"]
+-1 "LatchReset" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["latch"]
+-1 "LoopVarInAlways-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "NoTopCombPath-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "NoWidthInBasedNum-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "NonReusableParametricModule-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "ReportPortInfo-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "ReportSglibSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SDC2SGDC_INFO" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "STARC02-1.1.1.7" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/naming/naming1","starc2002/Basic_Design_Constraint_02"]
+-1 "STARC02-1.1.3.3" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/naming/naming2","starc2002/Basic_Design_Constraint_02"]
+-1 "STARC02-1.1.4.3" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/naming/naming2","starc2002/Basic_Design_Constraint_02"]
+-1 "STARC02-1.6.2.1" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/construct/construct1","starc2002/Basic_Design_Constraint_02"]
+-1 "STARC02-2.10.3.2b" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/quality/quality1/STARC02-2.10.3.2","starc2002/Starc02_Elab_Rules","starc2002/RTL_Description_Technique_02/STARC02-2.10.3.2"]
+-1 "STARC02-2.10.3.2c" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/quality/quality1/STARC02-2.10.3.2","starc2002/RTL_Description_Technique_02/STARC02-2.10.3.2"]
+-1 "STARC02-2.10.3.6" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/quality/quality2","starc2002/RTL_Description_Technique_02"]
+-1 "STARC02-2.7.3.5" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/quality/quality2","starc2002/Starc02_Lexical_Rules","starc2002/RTL_Description_Technique_02"]
+-1 "STARC02-3.1.4.5" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2002/quality/quality2","starc2002/Starc02_Lexical_Rules","starc2002/RTL_Design_Methodology_02"]
+-1 "STARC05-2.1.4.1" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2005/s05_Quality/s05_Quality2","starc2005/RTL_Description_Technique_05"]
+-1 "STARC05-3.1.4.2" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["starc2005/s05_Lexical_Rules","starc2005/s05_Quality/s05_Quality2","starc2005/RTL_Design_Methodology_05"]
+-1 "SYNTH_5255" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "SameAssignment-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "SignedUnsignedExpr-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint/V2K_Rules"]
+-1 "UniqueInputOutputSampling-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "UnloadedNet-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint/HangingNet-ML/Unloaded-ML"]
+-1 "Unreachable-ML" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["morelint"]
+-1 "W111" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage","lint/Array"]
+-1 "W116" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Expression"]
+-1 "W164a" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/width_rules_lint","lint/Lint_Elab_Rules","lint/Assign/W164"]
+-1 "W164b" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/width_rules_lint","lint/Lint_Elab_Rules","lint/Assign/W164"]
+-1 "W164c" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/width_rules_lint","lint/Lint_Elab_Rules","lint/Assign"]
+-1 "W328" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Verilint_Compat"]
+-1 "W415a" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/MultipleDriver"]
+-1 "W498" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "W528" 3
+"TEMPLATE"
+["mygoal"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["lint/Lint_Elab_Rules","lint/Usage"]
+-1 "checkCMD_ignore02" 2
+"RULEGROUP"
+["Command-line read"]
+"BUILTIN"
+"1"

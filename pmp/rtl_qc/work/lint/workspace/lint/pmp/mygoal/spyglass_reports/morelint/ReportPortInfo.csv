@@ -1,0 +1,17 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+pmp,Top_Level,clk,INPUT,1,-,module port,the num of pmp addr and cfg
+pmp,Top_Level,rst_n,INPUT,1,-,-,-
+pmp,Top_Level,csr_req_en,INPUT,1,-,-,-
+pmp,Top_Level,csr_req_op,INPUT,2,[1:0],module port,csr_op[1]---R, csr_op[0]---W
+pmp,Top_Level,csr_funct3,INPUT,3,[2:0],-,-
+pmp,Top_Level,csr_imm,INPUT,5,[4:0],-,-
+pmp,Top_Level,rs1_val,INPUT,32,[31:0],-,-
+pmp,Top_Level,csr_rrsp,INPUT,1,-,module port,input   logic [31:0]            ...
+pmp,Top_Level,csr_req_addr,INPUT,12,[11:0],-,-
+pmp,Top_Level,csr_req_rdata,OUTPUT,32,[31:0],-,-
+pmp,Top_Level,csr_req_rvalid,OUTPUT,1,-,-,-
+pmp,Top_Level,csr_act_rsp,OUTPUT,1,-,-,-
+pmp,Top_Level,mode_state,INPUT,2,[1:0],-,-
+pmp,Top_Level,v_req_addr,INPUT,96,[2:0][31:0],-,-
+pmp,Top_Level,v_req_mode,INPUT,6,[2:0][1:0],module port,instruction mode：01--load; 10-...
+pmp,Top_Level,v_pass,OUTPUT,3,[2:0],-,-

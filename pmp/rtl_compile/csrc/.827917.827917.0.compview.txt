@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1728380643.878877170, "rt":2.08, "ut":0.26, "st":0.08}}
+{"vcselab":{"timestamp_begin":1728380646.029865016, "rt":1.98, "ut":0.20, "st":0.05}}
+{"link":{"timestamp_begin":1728380648.062748581, "rt":0.23, "ut":0.17, "st":0.07}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1728380643.410541635}
+{"VCS_COMP_START_TIME": 1728380643.410541635}
+{"VCS_COMP_END_TIME": 1728380648.439890522}
+{"VCS_USER_OPTIONS": "-kdb -full64 -debug_access -sverilog -f /data/usr/qijiahuan/pmp/rtl/filelist.f +lint=PCWM +lint=TFIPC-L +define+TOY_SIM"}
+{"vcs1": {"peak_mem": 828315}}
+{"stitch_vcselab": {"peak_mem": 828404}}

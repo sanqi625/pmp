@@ -1,0 +1,2 @@
+syn_set_option synthesize_logic_inside_sv_interface 1
+syn_set_option enable_dw 1
