@@ -20,5 +20,3 @@ sim:
     ./simv -l sim.log +fsdbfile+top.fsdb &
 verdi -sv -f filelist.f -ssf wave.fsdb -dbdir ./simv.daidir
 
-
-	vcs -notice -debug_acc+all -j8 -timescale=1ns/1ps -sverilog -LDFLAGS -rdynamic -full64
